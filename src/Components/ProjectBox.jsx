@@ -12,7 +12,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     MovieDesc:
       "This web app  is for helping you find your desired movie.The project helped me with understanding the working of API.I also learned new CSS properties and tricks.",
     MovieGithub: "https://github.com/EshaalB/Movie-App",
-    MovieWebsite: "https://devanshsahni.github.io/Rog-Free/",
+    MovieWebsite: "https://film-mania.vercel.app/",
 
     ColourPaletteDesc:
       "This website helps you generate random colours that you can use as a palette.The project helped me understand Javascript more deeply using advance techniques",
