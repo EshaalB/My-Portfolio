@@ -11,7 +11,7 @@ const About = () => {
           </h1>
           <p>
             Hi, my name is <b>Eshaal Rehmatullah</b> and I am from Lahore,
-            Pakistan. I'm a <b>Frontend web developer</b> and a first year
+            Pakistan. I'm a <b>Frontend web developer</b> and a second year
             university student pursuing <b>BS in Computer Science</b>. <br />
             <br />
             I love to create projects with beautiful designs and put my own
@@ -22,10 +22,9 @@ const About = () => {
             contribute and grow. Feel free to connect with me, links are in the
             footer.
             <br />
-            Apart from coding I love to make discord servers,designs and do
-            photography in my spare time.
+            Some of my hobbies are managing and running social media pages ,discord servers. creating attractive thumbnails and gaming.
           </p>
-          <a href="images/Resume.docx" download className="resume-btn">
+          <a href="img/Resume.pdf" download className="resume-btn">
             <button>
               Download Resume <FaFileDownload></FaFileDownload>
             </button>
@@ -48,6 +47,7 @@ const About = () => {
         <Skills skill="C++" />
         <Skills skill="Figma" />
         <Skills skill="Npm" />
+        <Skills skill="SQL" />
       </div>
     </>
   );

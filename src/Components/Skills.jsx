@@ -9,6 +9,7 @@ import {
   FaBootstrap,
   FaHtml5,
   FaCss3,
+  FaDatabase,
 } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
@@ -26,6 +27,7 @@ const Skills = ({ skill }) => {
     Github: <FaGithub />,
     Npm: <FaNpm />,
     Figma: <FaFigma />,
+    SQL:<FaDatabase/>
   };
 
   return (
