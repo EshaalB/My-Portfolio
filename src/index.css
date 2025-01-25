@@ -9,6 +9,8 @@
   overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;
   --color: #04195f;
+  cursor: url("img/cursor.png"), auto;
+
 }
 body {
   font-family: "Raleway", sans-serif;
@@ -19,6 +21,7 @@ body {
   );
   color: #e7e7e7;
   min-height: 100vh;
+  cursor: url("img/cursor.png"), auto;
 }
 
 b {
@@ -405,6 +408,35 @@ button:hover {
   display: block;
   width: 100%;
   margin: 0px 0px;
+}
+/* Category Tabs */
+.categoryTabs {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 10px; /* Space between buttons */
+}
+
+.categoryTab {
+  padding: 5px 10px; /* Smaller padding for a more compact size */
+  font-size: 14px; /* Reduced font size */
+  border: 1px solid var(--color); /* Thinner border */
+  border-radius: 3px;
+  background-color: #f4f4f4; /* Light background color */
+  color: var(--color);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.categoryTab:hover {
+  background-color: var(--color); 
+  color: #fff;  
+}
+
+.categoryTab.active {
+  background-color: var(--color); 
+  color: #fff;
+  font-weight: bold;  
 }
 
 /* FOOTER */

@@ -37,6 +37,7 @@ const Contact = () => {
               id="name"
               name="name"
               value={formData.name}
+              placeholder="Your Name"
               onChange={handleChange}
               required
             />
@@ -48,6 +49,7 @@ const Contact = () => {
               id="email"
               name="email"
               value={formData.email}
+              placeholder="Your email"
               onChange={handleChange}
               required
             />
@@ -58,6 +60,7 @@ const Contact = () => {
               id="message"
               name="message"
               value={formData.message}
+               placeholder="Your message"
               onChange={handleChange}
               required
             />
